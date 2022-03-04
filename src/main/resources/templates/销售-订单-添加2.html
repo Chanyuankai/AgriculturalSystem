@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="zh-CN" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>销售-价格-添加2</title>
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/index.css" rel="stylesheet">
+    <script src="js/jquery-1.11.3.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/index.js"></script>
+    <script type="text/javascript" src="js/shangchuantouxiang.js"></script>
+    <!--[if lt IE 9]>
+    <script src="js/html5shiv.min.js"></script>
+    <script src="js/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+<!--导航start-->
+<nav class="navbar navbar-fixed-top">
+    <div class="container-fluid ">
+        <div class="row">
+            <div class="col-md-2 nav-logo">
+                <a href="首页.html"><img src="images/logo.png" /></a>
+            </div>
+            <div class="col-md-10 navbar1">
+                <p class="navbar-text">信息沟通世界&nbsp;&nbsp;科技服务三农</p>
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a href="销售-订单管理.html"><span class="glyphicon glyphicon-volume-up"></span>&nbsp;<span>订单<span class="badge">1</span></span></a>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+                            <span class="glyphicon glyphicon-info-sign"></span>&nbsp;
+                            <span>帮助</span>
+                            <span class="caret"></span>
+                        </a>
+                        <ul class="dropdown-menu dropdown-menu-right">
+                            <li class="text-center"><a href="#"><span class="text-primary"><span class="glyphicon glyphicon-phone-alt"></span>&nbsp;&nbsp;0451-87963519-815</span></a></li>
+                            <li class="text-center"><a href="#"><span class="text-primary"><span class="glyphicon glyphicon-comment"></span>&nbsp;&nbsp;互助问答</span></a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+                            <span class="glyphicon glyphicon-user"></span>&nbsp;
+                            <span>农业集团科技有限公司</span>
+                            <span class="caret"></span>
+                        </a>
+                        <ul class="dropdown-menu dropdown-menu-right">
+                            <li class="text-center"><a href="资源-公司信息.html"><span class="text-primary"><span class="glyphicon glyphicon-cog"></span>&nbsp;&nbsp;企业设置</span></a></li>
+                            <li class="text-center"><a href="首页.html"><span class="text-primary"><span class="glyphicon glyphicon-home"></span>&nbsp;&nbsp;个人首页</span></a></li>
+                            <li class="text-center"><a href="资源-站内信息.html"><span class="text-primary"><span class="glyphicon glyphicon-envelope"></span>&nbsp;&nbsp;系统消息</span></a></li>
+                            <li class="text-center"><a href="修改密码.html"><span class="text-primary"><span class="glyphicon glyphicon-lock"></span>&nbsp;&nbsp;修改密码</span></a></li>
+
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="登录.html">
+                            <span class="glyphicon glyphicon-remove-circle"></span>&nbsp;<span>退出</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</nav>
+<!--导航end-->
+<!--主体开始-->
+<main>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-xs-2 navbar2 sidebar">
+                <h3>翔 农 云 农 场</h3>
+                <h4>www.nongchang.com</h4>
+                <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+                    <div class="panel panel-default">
+                        <a class="nav-panel nav-left1" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true"
+                           aria-controls="collapseOne">
+                            <i class="ziyuan"></i>
+                            <i class="panel-left1">资&nbsp;源</i>
+                        </a>
+                        <div id="collapseOne" class="panel-collapse collapse" >
+                            <ul class="nav  nav-list">
+                                <li><a href="资源-公司信息.html">公司信息</a></li>
+                                <li><a href="资源-认证信息.html">认证信息</a></li>
+                                <li><a href="资源-员工管理-基地负责人.html">员工信息</a></li>
+                                <li><a href="资源-园区管理.html">园区管理</a></li>
+                                <li><a href="资源-农机管理.html">农机管理</a></li>
+                                <li><a href="资源-设备管理.html">设备管理</a></li>
+                                <li><a href="资源-站内信息.html">站内信息</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="panel panel-default">
+                        <a class="nav-panel nav-left1" data-toggle="collapse" data-parent="#accordion" href="#collapseOne1" aria-expanded="true"
+                           aria-controls="collapseOne1">
+                            <i class="jihua"></i>
+                            <i class="panel-left1">计&nbsp;划</i>
+                        </a>
+                        <div id="collapseOne1" class="panel-collapse collapse" >
+                            <ul class="nav  nav-list">
+                                <li><a href="计划-种类.html">种 类</a></li>
+                                <li><a href="计划-排产.html">排 产</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="panel panel-default">
+                        <a class="nav-panel nav-left1" data-toggle="collapse" data-parent="#accordion" href="#collapseOne2" aria-expanded="true"
+                           aria-controls="collapseOne2">
+                            <i class="shengchan"></i>
+                            <i class="panel-left1">生&nbsp;产</i>
+                        </a>
+                        <div id="collapseOne2" class="panel-collapse collapse" >
+                            <ul class="nav  nav-list">
+                                <li><a href="生产-农事.html">农事管理</a></li>
+                                <li><a href="生产-预警管理.html">预警管理</a></li>
+                                <li><a href="生产-监测.html">监 测</a></li>
+                                <li><a href="生产-控制.html">控 制</a></li>
+                                <li><a href="生产-气象.html">气 象</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="panel panel-default">
+                        <a class="nav-panel nav-left1" data-toggle="collapse" data-parent="#accordion" href="#collapseOne4" aria-expanded="true"
+                           aria-controls="collapseOne4">
+                            <i class="xiaoshou"></i>
+                            <i class="panel-left1">销&nbsp;售</i>
+                        </a>
+                        <div id="collapseOne4" class="panel-collapse collapse" >
+                            <ul class="nav  nav-list">
+                                <li><a href="销售-订单管理.html">订单管理</a></li>
+                                <li><a href="销售-价格.html">价格管理</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="panel panel-default">
+                        <a class="nav-panel nav-left1" data-toggle="collapse" data-parent="#accordion" href="#collapseOne5" aria-expanded="true"
+                           aria-controls="collapseOne5">
+                            <i class="lvli"></i>
+                            <i class="panel-left1">商&nbsp;品</i>
+                        </a>
+                        <div id="collapseOne5" class="panel-collapse collapse" >
+                            <ul class="nav  nav-list">
+                                <li><a href="商品-加工.html">加 工</a></li>
+                                <li><a href="商品-损耗.html">损 耗</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="panel panel-default">
+                        <a class="nav-panel nav-left1" data-toggle="collapse" data-parent="#accordion" href="#collapseOne6" aria-expanded="true"
+                           aria-controls="collapseOne6">
+                            <i class="jiagong"></i>
+                            <i class="panel-left1">配&nbsp;送</i>
+                        </a>
+                        <div id="collapseOne6" class="panel-collapse collapse" >
+                            <ul class="nav  nav-list">
+                                <li><a href="配送-物流管理.html">物流管理</a></li>
+                                <li><a href="履历-履历管理.html">履历管理</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="panel panel-default">
+                        <a class="nav-panel nav-left1" data-toggle="collapse" data-parent="#accordion" href="#collapseOne7" aria-expanded="true"
+                           aria-controls="collapseOne7">
+                            <i class="fenxi"></i>
+                            <i class="panel-left1">统&nbsp;计</i>
+                        </a>
+                        <div id="collapseOne7" class="panel-collapse collapse" >
+                            <ul class="nav nav-list">
+                                <li><a href="汇总-历年产量对比-投产量.html">汇 总</a></li>
+                                <li><a href="分析-农事管理分析-环境监控历史纪录.html">分 析</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--左侧nav end-->
+            <!--右侧内容开始-->
+            <div class="col-xs-10 center_box">
+                <form class="form-horizontal dingdan-detail2" role="form" >
+                    <fieldset>
+                        <legend>收货人信息</legend>
+                        <div class="form-group">
+                            <div class="col-xs-3 dingdan-shouhuoren">
+                                <fieldset>
+                                    <legend>梁朝伟&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;13590329952</legend>
+                                    <p>
+                                        广东 深圳市 宝安区
+                                        <br/>
+                                        海秀路龙光世纪大厦B栋11楼
+                                        <br/>
+                                        （518101）
+                                    </p>
+                                    <a href="#" class="pull-right btn dingdan-shouhuoren-bianji btn-group-lg" type="button" role="button" aria-hidden="true" data-toggle="modal" data-target="#xiugai-address">
+                                        <i class="glyphicon glyphicon-pencil"></i>
+                                    </a>
+                                </fieldset>
+                            </div>
+                            <div class="col-xs-3 dingdan-shouhuoren-add">
+                                <fieldset>
+                                      <a href="#" class="btn btn-group-lg" type="button" role="button" aria-hidden="true" data-toggle="modal" data-target=".bs-example-modal-sm">
+                                       <i class="glyphicon glyphicon-plus-sign"></i>
+                                      </a>
+                                    <span> 添加新地址</span>
+                                </fieldset>
+                            </div>
+                        </div>
+                    </fieldset>
+                    <fieldset>
+                        <legend>配送时间</legend>
+                        <div class="form-group has-feedback">
+                            <p class="col-xs-2 control-label">配送时间：</p>
+                            <div class="col-xs-3">
+                                    <input type="date" class="form-control" value=""/>
+                                    <i class="glyphicon glyphicon-th form-control-feedback dateicon"></i>
+                                </div>
+                                <div class="col-xs-3">
+                                  <div class="radio">
+                                    <label class="radio-inline">
+                                        <input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" checked> 全天
+                                    </label>
+                                    <label class=" radio-inline">
+                                        <input type="radio" name="optionsRadios" id="optionsRadios2" value="option2">上午
+                                    </label>
+                                      <label class=" radio-inline">
+                                          <input type="radio" name="optionsRadios" id="optionsRadios3" value="option3">下午
+                                      </label>
+                                      <label class=" radio-inline">
+                                          <input type="radio" name="optionsRadios" id="optionsRadios4" value="option4">晚上
+                                      </label>
+                                </div>
+                            </div>
+                        </div>
+                    </fieldset>
+                    <fieldset>
+                    <legend>支付方式</legend>
+                    <div class="form-group">
+                        <div class="col-xs-3">
+                            <div class="radio">
+                                <label class="radio-inline">
+                                    <input type="radio" name="optionsRadios" id="optionsRadios5" value="option5" checked> 在线支付
+                                </label>
+                            </div>
+                        </div>
+                        <div class="col-xs-3">
+                            <div class="radio">
+                                <label class="radio-inline">
+                                    <input type="radio" name="optionsRadios" id="optionsRadios6" value="option6" checked> 货到付款
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                </fieldset>
+                    <fieldset>
+                        <legend>订单信息</legend>
+                        <div class="table-responsive dingdan-tijiao">
+                            <table class="table table-striped dingdan-table">
+                                <thead>
+                                <tr>
+                                    <td>名 称</td>
+                                    <td>规 格</td>
+                                    <td>&nbsp;&nbsp;原 价</td>
+                                    <td>&nbsp;&nbsp;单 价</td>
+                                    <td>数 量</td>
+                                    <td>&nbsp;&nbsp;小 计</td>
+                                </tr>
+                                </thead>
+                                <tbody>
+                                <tr>
+                                    <td>小番茄</td>
+                                    <td>公斤</td>
+                                    <td>￥10.00</td>
+                                    <td>￥10.00</td>
+                                    <td>1</td>
+                                    <td>￥10.00</td>
+                                </tr>
+                                <tr>
+                                    <td>小番茄</td>
+                                    <td>公斤</td>
+                                    <td>￥10.00</td>
+                                    <td>￥10.00</td>
+                                    <td>1</td>
+                                    <td>￥10.00</td>
+                                </tr>
+                                <tr>
+                                    <td>小番茄</td>
+                                    <td>公斤</td>
+                                    <td>￥10.00</td>
+                                    <td>￥10.00</td>
+                                    <td>1</td>
+                                    <td>￥10.00</td>
+                                </tr>
+                                <tr>
+                                    <td>小番茄</td>
+                                    <td>公斤</td>
+                                    <td>￥10.00</td>
+                                    <td>￥10.00</td>
+                                    <td>1</td>
+                                    <td>￥10.00</td>
+                                </tr>
+                                </tbody>
+                            </table>
+                            <div class="pull-right dingdan-heji">
+                                <ul class="list-unstyled  pull-right dingdan-heji1">
+                                    <li>￥40.00</li>
+                                    <li>一￥10.00</li>
+                                    <li>￥<input type="text" value="10.00"/></li>
+                                    <li><h2>￥40.00</h2></li>
+                                </ul>
+                                <ul class="list-unstyled pull-right dingdan-heji2">
+                                    <li>商品总价：</li>
+                                    <li>优惠：</li>
+                                    <li>运费：</li>
+                                    <li>实际付款：</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </fieldset>
+                    <div class="form-group nongjidetail-btn">
+                        <div class="col-xs-offset-10">
+                            <a href="销售-订单-添加.html" class="btn btn-default" type="button" role="button">上一步</a>
+                            <a href="销售-订单-详情.html" class="btn btn-primary" type="button" role="button">提交订单</a>
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <!--右侧内容end-->
+        </div>
+    </div>
+</main>
+<!--主体end-->
+<!--添加地址 弹出层-->
+<form class="form-inline" role="form">
+<div class="modal fade bs-example-modal-sm" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-sm">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title" id="myModalLabel">添加新地址</h4>
+            </div>
+                <div class="modal-body">
+                    <div class="form-group">
+                        <label for="mingcheng" class="control-label">姓名</label>
+                        <input type="text" class="form-control" id="mingcheng" placeholder="">
+                    </div>
+                    <div class="form-group"  style="margin-top:5px;">
+                        <label for="iphone1" class="control-label">电话</label>
+                        <input type="text" class="form-control" id="iphone1" placeholder="">
+                    </div>
+                    <div class="form-group" style="margin-top:5px;">
+                        <label class="control-label">地址</label>
+                        <textarea  class="form-control" ></textarea>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button class="btn btn-success" type="submit" data-dismiss="modal">保存</button>
+                    <button class="btn btn-default" data-dismiss="modal" type="button">取消</button>
+                </div>
+            </div>
+          </div>
+      </div>
+    </form>
+<!--修改地址-->
+<div class="modal fade" id="xiugai-address" tabindex="-1" role="dialog"
+     aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal"
+                        aria-hidden="true">×
+                </button>
+                <h4 class="modal-title" id="modal-title">
+                    修 改 地 址
+                </h4>
+            </div>
+            <div class="modal-body">
+                <div class="form-group" style="margin-top:5px;">
+                    <label for="change-name" class="control-label">姓名</label>
+                    <input class="form-control" id="change-name" value="梁朝伟"/>
+                </div>
+                <div class="form-group" style="margin-top:5px;">
+                    <label for="change-number" class="control-label">电话</label>
+                    <input class="form-control" id="change-number" value="13590329952"/>
+                </div>
+                <div class="form-group" style="margin-top:5px;">
+                    <label for="change-address" class="control-label">地址</label>
+                    <textarea class="form-control" id="change-address">广东 深圳市 宝安区 海秀路龙光世纪大厦B栋11楼（518101）</textarea>
+                </div>
+                </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default"
+                        data-dismiss="modal">
+                    关闭
+                </button>
+                <button type="button" class="btn btn-primary" data-dismiss="modal">
+                    提交更改
+                </button>
+            </div>
+        </div><!-- /.modal-content -->
+    </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
+<!--<script>-->
+    <!--var s = document.createElement('script');-->
+    <!--s.onload = function () {-->
+        <!--bootlint.showLintReportForCurrentDocument([]);-->
+    <!--}-->
+    <!--s.src = 'js/bootlint.js';-->
+    <!--document.body.appendChild(s);-->
+<!--</script>-->
+</body>
+</html>
